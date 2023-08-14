@@ -1,0 +1,249 @@
+version: "3.0"
+
+nlu:
+- intent: Climate_Change_Introduction_Definition
+  examples: |
+    - What is climate change?
+    - Is warming or cooling climate change?
+    - Is the warming effect of climate change?
+    - What is the definition of climate change?
+    - What does climate change mean?
+    - Is sudden change in weather climate change?
+    - Lack of rain is climate change?
+    - What is climate change?
+    - Are changes in the atmosphere climate change?
+- intent: Climate_Change_Introduction_Effect
+  examples: |
+    - Who is being affected by climate change?
+    - What is the impact of climate change?
+    - How are we being affected by climate change?
+    - Is climate change affecting livelihoods?
+    - How is climate change affecting animals and birds?
+    - Who is climate change affecting?
+    - Does climate change affect nature?
+    - Who else is affected by climate change besides humans?
+- intent: Climate_Change_Introduction_Causes
+  examples: |
+    - Why is climate change happening?
+    - Who is responsible for climate change?
+    - Is climate change due to natural causes?
+    - What is our contribution to climate change?
+    - Which activities affect the climate?
+    - What could be the reason for climate change?
+    - Is the smoke and toxic gas coming out of the factories the reason for climate change?
+    - How is climate change related to deforestation?
+- intent: Climate_Change_Introduction_Signs
+  examples: |
+    - What are the main threats of climate change?
+    - What are the disadvantages of climate change?
+    - How is our life being affected by climate change?
+    - Are natural disasters increasing due to climate change?
+    - How are animals and birds being affected by climate change?
+    - Are some animals and birds going extinct from the earth due to climate change?
+    - Is the Earth's temperature rising due to climate change?
+    - Will climate change threaten agriculture in the future?
+- intent: Climate_Change_Information_global_impact
+  examples: |
+    - Is the whole world affected by climate change?
+    - Is climate change regional?
+    - Has climate change also increased disease?
+    - Are all countries affected by climate change?
+    - Do natural disasters occur due to climate change?
+    - What is the relation between climate change and natural disaster?
+    - Which cities will be drowned by climate change?
+    - Which type of disease is more due to climate change?
+- intent: Climate_Change_Introduction_Impact_on_fauna
+  examples: |
+    - How is climate change affecting animals?
+    - Are animal species dying out due to climate change?
+    - Are animals and birds affected by climate change?
+    - Are cattle unable to get fodder due to climate change?
+    - Are certain types of birds going extinct due to climate change?
+    - How is climate change affecting the life, habitat, fodder and water of animals?
+    - How is climate change affecting animal life?
+- intent: Climate_Change_Introduction_Impact_on_human
+  examples: |
+    - Which communities are most affected by climate change
+    - Are poor people more affected by climate change?
+    - How are tribals being affected by climate change?
+    - What is the relation between climate change and per capita income?
+    - Who are the most affected by climate change?
+    - Is the effect of climate change the same everywhere?
+    - Does climate change also have an impact on livelihood?
+    - Does climate change increase poverty?
+- intent: Climate_Change_Introduction_Deforestation
+  examples: |
+    - Does deforestation affect climate change?
+    - Does increasing carbon dioxide in the atmosphere affect climate change?
+    - Why shouldn't we cut trees?
+    - How does deforestation affect climate change?
+    - What is the relation of climate change with forests?
+    - How has deforestation affected the communities that depend on forests?
+    - How is the relationship between the forest and the people?
+    - What is the reason for the continuous rise in temperature?
+- intent: Climate_Change_Impact_Information
+  examples: |
+    - How is climate change affecting people's personal lives?
+    - How are people affected by climate change?
+    - Are people living on the banks of rivers or seas affected by climate change?
+    - What aspects of people's lives does climate change affect?
+    - How is climate change affecting people's personal lives?
+    - How are people affected by climate change?
+    - How is climate change affecting our lives?
+    - How is life changing for people due to climate change?
+    - Are our lives changing because of climate change?
+- intent: Climate_Change_Impact_Livelihoods
+  examples: |
+    - Is climate change also affecting people's livelihood?
+    - How does climate change affect people's livelihood?
+    - Is climate change changing the way we work?
+    - How is our livelihood being affected by climate change?
+    - Which livelihoods are being affected by climate change?
+    - Are our employment patterns changing due to the changing climate?
+    - Are our employment patterns changing due to climate change?
+    - Are our livelihoods affected due to climate change?
+    - How are our livelihoods affected by climate change?
+    - How are our livelihoods affected by the rising heat?
+    - Does the changing climate affect our livelihood?
+- intent: Climate_Change_Impact_LivelihoodsTypes
+  examples: |
+    - Which livelihoods are most affected by climate change?
+    - How is climate change affecting livelihoods?
+    - How is the livelihood of people dependent on forests being affected by climate change?
+    - How is climate change affecting the livelihood of the people living in the village?
+    - Does climate change affect everyone equally?
+    - Which livelihoods are most affected by climate change?
+    - Which livelihoods are most affected by climate change?
+- intent: Climate_Change_Impact_Health
+  examples: |
+    - How is climate change affecting people's health and nutrition?
+    - Does climate change affect people's health?
+    - Does climate change affect food security and availability?
+    - How is climate change affecting people's food habits?
+    - Is climate change affecting people's diet?
+    - What is the relationship between eating right and health?
+    - How does nutritional deficiency affect our health?
+    - Is climate change affecting the nutritional value of our diet?
+- intent: Climate_Change_Impact_Farming
+  examples: |
+    - How is climate change affecting agriculture?
+    - Are farmers affected by climate change?
+    - How are farmers affected by climate change?
+    - Why are farmers affected by climate change?
+    - Can climate change affect crop yields?
+    - How does climate change affect agriculture?
+    - Does climate change affect agriculture?
+    - Is climate change hurting farmers?
+    - How are farmers being harmed by climate change?
+    - Does climate change affect the soil of the farm as well?
+    - Could climate change make farm soil less fertile?
+    - How does climate change affect agriculture?
+    - Does climate change affect agriculture?
+- intent: Climate_Change_Impact_Fisheries
+  examples: |
+    - How is climate change affecting fisheries?
+    - Can chemical fertilizers applied in the field harm the fish?
+    - How does climate change harm fish?
+    - Has climate change made it difficult to get water for fish farming?
+    - Why has climate change made fishing difficult?
+    - How is climate change affecting fisheries?
+- intent: Climate_Change_Impact_Migration
+  examples: |
+    - How climate change affects migration
+    - Is climate change increasing migration?
+    - Is climate change forcing people to give up traditional livelihoods?
+    - How is migration from climate change increasing?
+    - Why is climate change migration on the rise?
+    - Is climate change causing people to migrate in search of work?
+    - Does climate change affect migration?
+    - Due to climate change, especially people associated with which livelihood are forced to follow?
+- intent: Climate_Change_adaptation_Introduction
+  examples: |
+    - Can climate change be stopped?
+    - Can the effects of climate change be tackled?
+    - How can the effects of climate change be reduced?
+    - Can the effects of climate change be reduced?
+    - Can the effects of climate change be stopped at the individual level?
+    - Who is trying to reduce the effects of climate change?
+    - Are there any efforts being made to reduce the effects of climate change?
+    - Can private efforts also prevent the effects of climate change?
+- intent: Climate_Change_adaptation_responsibilities
+  examples: |
+    - Who should work to solve the problem caused by climate change?
+    - Whose role is most important in combating climate change?
+    - Who is responsible for dealing with the effects of climate change?
+    - Whose contribution is important in reducing the effect of climate change?
+    - How can the effect of climate change be reduced by individual and collective efforts?
+    - How can we stop climate change?
+    - What is the role of organizations in reducing the effects of climate change?
+    - Is the participation of private organizations necessary in reducing the effects of climate change?
+- intent: Climate_Change_adaptation_Individual_Action
+  examples: |
+    - What kind of steps can be taken at the individual level to deal with the problems of climate change?
+    - How can people associated with agriculture face climate change by making changes in agriculture?
+    - How can farmer brothers face climate change?
+    - What changes in our lifestyle can we reduce the speed of climate change?
+    - What kind of changes should be made in personal life to deal with climate change?
+    - Can we reduce the speed of climate change by changing farming methods and lifestyle?
+- intent: Climate_Change_adaptation_Community_Action
+  examples: |
+    - What kind of steps can be taken at the community level to deal with the problems arising out of climate change?
+    - How can we reduce the effect of climate change through collective efforts?
+    - How can we collectively play our part in reducing the effects of climate change by contributing around us?
+    - Can community efforts reduce climate change?
+    - What kind of efforts at the village level can reduce climate change?
+- intent: Climate_Change_adaptation_Govt_Schemes
+  examples: |
+    - What efforts are being made by the government to mitigate climate change and deal with its effects?
+    - Does the government have any plans to deal with climate change?
+    - What are the schemes launched by the government to deal with climate change?
+    - How is the government trying to tackle climate change through its departments?
+    - Which schemes are being run by the government to prevent climate change?
+    - What is the government doing to combat climate change?
+- intent: Climate_Change_Adaptation_crop_insurance
+  examples: |
+    - Which scheme has been implemented by the government to save the farmers from the losses in agriculture due to climate change?
+    - How does Pradhan Mantri Fasal Bima Yojana provide protection to farmers from crop loss?
+    - What is Pradhan Mantri Fasal Bima Yojana?
+    - What is Kisan Fasal Bima Yojana?
+    - The benefit of crop insurance scheme is available to compensate the loss of which crops?
+    - What is the purpose of Pradhan Mantri Fasal Bima Yojana?
+    - What is the plan of the government to protect the farmers from the damages caused by climate change?
+- intent: Climate_Change_Adaptation_crop_insurance_avail
+  examples: |
+    - What is the procedure to apply under Pradhan Mantri Fasal Bima Yojana?
+    - Where can a farmer apply for crop insurance?
+    - How to apply for Pradhan Mantri Fasal Bima Yojana?
+    - Where to submit the application to avail the benefits of Pradhan Mantri Fasal Bima Yojana?
+    - What is the procedure to apply for crop insurance?
+    - Is it necessary to apply for crop insurance through computer?
+- intent: Climate_Change_Adaptation_Soil_health
+  examples: |
+    - What is Soil Health Card?
+    - Is there any plan for soil testing of the farm?
+    - Whom to contact for soil test of the farm?
+    - What is the benefit of the farmer by testing the soil of the field?
+    - Should fertilizers be given according to the soil in the field?
+    - Should crops be planted according to the soil in the field?
+    - What is the benefit of the soil health card to the farmer?
+    - Do all farmers get the benefit of Soil Health Card?
+    - Who can apply for Soil Health Card?
+    - Where to contact for availing the benefits of Soil Health Card Scheme?
+- intent: Climate_Change_adaptation_MGNREGA
+  examples: |
+    - How can the MGNREGA scheme be used to combat climate change?
+    - Can people engaged in animal husbandry and fisheries also take advantage of MNREGA?
+    - Can the MGNREGA scheme be used to combat the effects of climate change?
+    - How can the MGNREGA scheme be used to combat the effects of climate change?
+    - What types of works can be done for land conservation under MNREGA scheme?
+    - Can I do water conservation work under MNREGA scheme?
+    - Can I make a canal for irrigation under MNREGA scheme?
+    - Can I do the work of creating infrastructure for fish farming under MNREGA scheme?
+    - What works related to land, water, water for agriculture and drinking water can be done under MNREGA scheme?
+- intent: Climate_Change_Adaptation_Local_governance
+  examples: |
+    - How can panchayats play their role in mitigating the effects of climate change?
+    - What is the procedure to avail benefits of government schemes related to climate change at community level?
+    - How can I apply for the works related to climate change to be done by the Panchayat?
+    - What is the role of Panchayat in mitigating the effects of climate change?
+    - What kind of work can be applied for under MGNREGA?

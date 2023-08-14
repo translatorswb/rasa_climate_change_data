@@ -1,0 +1,399 @@
+version: "3.0"
+
+nlu:
+- intent: lang_eng
+  examples: |
+    - What is climate change?
+    - Is warming or cooling climate change?
+    - Is the warming effect of climate change?
+    - What is the definition of climate change?
+    - What does climate change mean?
+    - Is sudden change in weather climate change?
+    - Lack of rain is climate change?
+    - What is climate change?
+    - Are changes in the atmosphere climate change?
+    - Who is being affected by climate change?
+    - What is the impact of climate change?
+    - How are we being affected by climate change?
+    - Is climate change affecting livelihoods?
+    - How is climate change affecting animals and birds?
+    - Who is climate change affecting?
+    - Does climate change affect nature?
+    - Who else is affected by climate change besides humans?
+    - Why is climate change happening?
+    - Who is responsible for climate change?
+    - Is climate change due to natural causes?
+    - What is our contribution to climate change?
+    - Which activities affect the climate?
+    - What could be the reason for climate change?
+    - Is the smoke and toxic gas coming out of the factories the reason for climate change?
+    - How is climate change related to deforestation?
+    - What are the main threats of climate change?
+    - What are the disadvantages of climate change?
+    - How is our life being affected by climate change?
+    - Are natural disasters increasing due to climate change?
+    - How are animals and birds being affected by climate change?
+    - Are some animals and birds going extinct from the earth due to climate change?
+    - Is the Earth's temperature rising due to climate change?
+    - Will climate change threaten agriculture in the future?
+    - Is the whole world affected by climate change?
+    - Is climate change regional?
+    - Has climate change also increased disease?
+    - Are all countries affected by climate change?
+    - Do natural disasters occur due to climate change?
+    - What is the relation between climate change and natural disaster?
+    - Which cities will be drowned by climate change?
+    - Which type of disease is more due to climate change?
+    - How is climate change affecting animals?
+    - Are animal species dying out due to climate change?
+    - Are animals and birds affected by climate change?
+    - Are cattle unable to get fodder due to climate change?
+    - Are certain types of birds going extinct due to climate change?
+    - How is climate change affecting the life, habitat, fodder and water of animals?
+    - How is climate change affecting animal life?
+    - Which communities are most affected by climate change
+    - Are poor people more affected by climate change?
+    - How are tribals being affected by climate change?
+    - What is the relation between climate change and per capita income?
+    - Who are the most affected by climate change?
+    - Is the effect of climate change the same everywhere?
+    - Does climate change also have an impact on livelihood?
+    - Does climate change increase poverty?
+    - Does deforestation affect climate change?
+    - Does increasing carbon dioxide in the atmosphere affect climate change?
+    - Why shouldn't we cut trees?
+    - How does deforestation affect climate change?
+    - What is the relation of climate change with forests?
+    - How has deforestation affected the communities that depend on forests?
+    - How is the relationship between the forest and the people?
+    - What is the reason for the continuous rise in temperature?
+    - How is climate change affecting people's personal lives?
+    - How are people affected by climate change?
+    - Are people living on the banks of rivers or seas affected by climate change?
+    - What aspects of people's lives does climate change affect?
+    - How is climate change affecting people's personal lives?
+    - How are people affected by climate change?
+    - How is climate change affecting our lives?
+    - How is life changing for people due to climate change?
+    - Are our lives changing because of climate change?
+    - Is climate change also affecting people's livelihood?
+    - How does climate change affect people's livelihood?
+    - Is climate change changing the way we work?
+    - How is our livelihood being affected by climate change?
+    - Which livelihoods are being affected by climate change?
+    - Are our employment patterns changing due to the changing climate?
+    - Are our employment patterns changing due to climate change?
+    - Are our livelihoods affected due to climate change?
+    - How are our livelihoods affected by climate change?
+    - How are our livelihoods affected by the rising heat?
+    - Does the changing climate affect our livelihood?
+    - Which livelihoods are most affected by climate change?
+    - How is climate change affecting livelihoods?
+    - How is the livelihood of people dependent on forests being affected by climate change?
+    - How is climate change affecting the livelihood of the people living in the village?
+    - Does climate change affect everyone equally?
+    - Which livelihoods are most affected by climate change?
+    - Which livelihoods are most affected by climate change?
+    - How is climate change affecting people's health and nutrition?
+    - Does climate change affect people's health?
+    - Does climate change affect food security and availability?
+    - How is climate change affecting people's food habits?
+    - Is climate change affecting people's diet?
+    - What is the relationship between eating right and health?
+    - How does nutritional deficiency affect our health?
+    - Is climate change affecting the nutritional value of our diet?
+    - How is climate change affecting agriculture?
+    - Are farmers affected by climate change?
+    - How are farmers affected by climate change?
+    - Why are farmers affected by climate change?
+    - Can climate change affect crop yields?
+    - How does climate change affect agriculture?
+    - Does climate change affect agriculture?
+    - Is climate change hurting farmers?
+    - How are farmers being harmed by climate change?
+    - Does climate change affect the soil of the farm as well?
+    - Could climate change make farm soil less fertile?
+    - How does climate change affect agriculture?
+    - Does climate change affect agriculture?
+    - How is climate change affecting fisheries?
+    - Can chemical fertilizers applied in the field harm the fish?
+    - How does climate change harm fish?
+    - Has climate change made it difficult to get water for fish farming?
+    - Why has climate change made fishing difficult?
+    - How is climate change affecting fisheries?
+    - How climate change affects migration
+    - Is climate change increasing migration?
+    - Is climate change forcing people to give up traditional livelihoods?
+    - How is migration from climate change increasing?
+    - Why is climate change migration on the rise?
+    - Is climate change causing people to migrate in search of work?
+    - Does climate change affect migration?
+    - Due to climate change, especially people associated with which livelihood are forced to follow?
+    - Can climate change be stopped?
+    - Can the effects of climate change be tackled?
+    - How can the effects of climate change be reduced?
+    - Can the effects of climate change be reduced?
+    - Can the effects of climate change be stopped at the individual level?
+    - Who is trying to reduce the effects of climate change?
+    - Are there any efforts being made to reduce the effects of climate change?
+    - Can private efforts also prevent the effects of climate change?
+    - Who should work to solve the problem caused by climate change?
+    - Whose role is most important in combating climate change?
+    - Who is responsible for dealing with the effects of climate change?
+    - Whose contribution is important in reducing the effect of climate change?
+    - How can the effect of climate change be reduced by individual and collective efforts?
+    - How can we stop climate change?
+    - What is the role of organizations in reducing the effects of climate change?
+    - Is the participation of private organizations necessary in reducing the effects of climate change?
+    - What kind of steps can be taken at the individual level to deal with the problems of climate change?
+    - How can people associated with agriculture face climate change by making changes in agriculture?
+    - How can farmer brothers face climate change?
+    - What changes in our lifestyle can we reduce the speed of climate change?
+    - What kind of changes should be made in personal life to deal with climate change?
+    - Can we reduce the speed of climate change by changing farming methods and lifestyle?
+    - What kind of steps can be taken at the community level to deal with the problems arising out of climate change?
+    - How can we reduce the effect of climate change through collective efforts?
+    - How can we collectively play our part in reducing the effects of climate change by contributing around us?
+    - Can community efforts reduce climate change?
+    - What kind of efforts at the village level can reduce climate change?
+    - What efforts are being made by the government to mitigate climate change and deal with its effects?
+    - Does the government have any plans to deal with climate change?
+    - What are the schemes launched by the government to deal with climate change?
+    - How is the government trying to tackle climate change through its departments?
+    - Which schemes are being run by the government to prevent climate change?
+    - What is the government doing to combat climate change?
+    - Which scheme has been implemented by the government to save the farmers from the losses in agriculture due to climate change?
+    - How does Pradhan Mantri Fasal Bima Yojana provide protection to farmers from crop loss?
+    - What is Pradhan Mantri Fasal Bima Yojana?
+    - What is Kisan Fasal Bima Yojana?
+    - The benefit of crop insurance scheme is available to compensate the loss of which crops?
+    - What is the purpose of Pradhan Mantri Fasal Bima Yojana?
+    - What is the plan of the government to protect the farmers from the damages caused by climate change?
+    - What is the procedure to apply under Pradhan Mantri Fasal Bima Yojana?
+    - Where can a farmer apply for crop insurance?
+    - How to apply for Pradhan Mantri Fasal Bima Yojana?
+    - Where to submit the application to avail the benefits of Pradhan Mantri Fasal Bima Yojana?
+    - What is the procedure to apply for crop insurance?
+    - Is it necessary to apply for crop insurance through computer?
+    - What is Soil Health Card?
+    - Is there any plan for soil testing of the farm?
+    - Whom to contact for soil test of the farm?
+    - What is the benefit of the farmer by testing the soil of the field?
+    - Should fertilizers be given according to the soil in the field?
+    - Should crops be planted according to the soil in the field?
+    - What is the benefit of the soil health card to the farmer?
+    - Do all farmers get the benefit of Soil Health Card?
+    - Who can apply for Soil Health Card?
+    - Where to contact for availing the benefits of Soil Health Card Scheme?
+    - How can the MGNREGA scheme be used to combat climate change?
+    - Can people engaged in animal husbandry and fisheries also take advantage of MNREGA?
+    - Can the MGNREGA scheme be used to combat the effects of climate change?
+    - How can the MGNREGA scheme be used to combat the effects of climate change?
+    - What types of works can be done for land conservation under MNREGA scheme?
+    - Can I do water conservation work under MNREGA scheme?
+    - Can I make a canal for irrigation under MNREGA scheme?
+    - Can I do the work of creating infrastructure for fish farming under MNREGA scheme?
+    - What works related to land, water, water for agriculture and drinking water can be done under MNREGA scheme?
+    - How can panchayats play their role in mitigating the effects of climate change?
+    - What is the procedure to avail benefits of government schemes related to climate change at community level?
+    - How can I apply for the works related to climate change to be done by the Panchayat?
+    - What is the role of Panchayat in mitigating the effects of climate change?
+    - What kind of work can be applied for under MGNREGA?
+- intent: lang_hindi
+  examples: |
+    - जलवायु परिवर्तन क्या है?
+    - क्या गर्मी का बढ़ना या ठंडा पड़ना जलवायु परिवर्तन है?
+    - गर्मी का बढ़ना क्या जलवायु परिवर्तन का असर है?
+    - जलवायु परिवर्तन की परिभाषा क्या है ?
+    - जलवायु परिवर्तन का मतलब क्या होता है ?
+    - क्या अचानक मौसम में बदलवाव आना जलवायु परिवर्तन है ?
+    - बारिश में कमी होना जलवायु परिवर्तन है ?
+    - जलवायु परिवर्तन किसे कहते हैं ?
+    - क्या वातावरण में आ रहे बदलाव जलवायु परिवर्तन है? 
+    - जलवायु परिवर्तन से कौन प्रभावित हो रहे है? 
+    - जलवायु परिवर्तन का क्या प्रभाव है ?
+    - जलवायु परिवर्तन से हम कैसे प्रभावित हो रहे हैं ?
+    - क्या जलवायु परिवर्तन का प्रभाव आजीविका पर पड़ रहा है ?
+    - जलवायु परिवर्तन पशु -पक्षियों को किस तरह से प्रभावित कर रहा है ?
+    - जलवायु परिवर्तन किनको प्रभावित कर रहा है? 
+    - क्या जलवायु परिवर्तन प्रकृति को प्रभावित करता है?
+    - जलवायु परिवर्तन से मनुष्य के अलावा और कौन प्रभावित होता है?
+    - जलवायु परिवर्तन क्यों हो रहा है?
+    - जलवायु परिवर्तन के लिए कौन जिम्मेदार है?
+    - क्या जलवायु परिवर्तन प्राकृतिक कारणों से हो रहा है?
+    - जलवायु परिवर्तन में हमलोगो का क्या योगदान है ?
+    - कौन कौन सी गतिविधियाँ जलवायु को प्रभावित करती है ?
+    - जलवायु परिवर्तन क्या क्या कारण हो सकते हैं ?
+    - क्या कारखानों से निकलने वाले धुआँ और जहरीले गैस जलवायु परिवर्तन के कारण है ?
+    - जंगलों की कटाई से जलवायु परिवर्तन का क्या सम्बन्ध है ?
+    - जलवायु परिवर्तन के मुख्य खतरे क्या हैं ?
+    - जलवायु परिवर्तन से कौन कौन से नुकसान होंगे ?
+    - जलवायु परिवर्तन से हमारा जीवन कैसे प्रभावित हो रहा है ?
+    - क्या जलवायु परिवर्तन के कारण प्राकृतिक आपदाएं बढ़ रही हैं?
+    - जलवायु परिवर्तन से पशु पक्षी कैसे प्रभावित हो रहे है ?
+    - क्या जलवायु परिवर्तन के कारण पृथ्वी से कुछ पशु पक्षी  विलुप्त हो रहे हैं ?
+    - पृथ्वी का तापमान क्या जलवायु परिवर्तन के कारण बढ़ रहा है ?
+    - क्या जलवायु परिवर्तन से आने वाले समय में कृषि को खतरा है ? 
+    - क्या पूरी दुनिया जलवायु परिवर्तन से प्रभावित है?
+    - क्या जलवायु परिवर्तन क्षेत्रीय है?
+    - क्या जलवायु परिवर्तन से बीमारी भी बढ़ने लगी है ?
+    - क्या जलवायु परिवर्तन से सभी देश प्रभावित है ?
+    - क्या जलवायु परिवर्तन के कारण प्राकृतिक आपदाओं की घटनाएं घटती है ?
+    - जलवायु परिवर्तन और प्राकृतिक आपदा में क्या सम्बन्ध है ?
+    - जलवायु परिवर्तन से कौन से शहर डूब जायेंगे?
+    - जलवायु परिवर्तन के कारण किस तरह की बीमारी अधिक होती है ?
+    - जलवायु परिवर्तन जानवरों को कैसे प्रभावित कर रहा है?
+    - क्या जलवायु परिवर्तन के कारण जानवरों की प्रजातियां खत्म हो रही हैं?
+    - क्या पशु और पक्षी जलवायु परिवर्तन से प्रभावित हैं?
+    - क्या जलवायु परिवर्तन के कारण मवेशी को चारा नहीं मिल पा  रहा है ?
+    - क्या जलवायु परिवर्तन के कारण कुछ विशेष प्रकार के पक्षी विलुप्त हो रहे हैं ?
+    - जानवरों के जीवन, आवास, चारे और पानी को जलवायु परिवर्तन कैसे प्रभावित कर रहे है ?
+    - जलवायु परिवर्तन जानवरों के जीवन को कैसे असर डाल रहा है ?
+    - जलवायु परिवर्तन से कौन से समुदाय अधिक प्रभावित हैं
+    - क्या गरीब लोग जलवायु परिवर्तन से अधिक प्रभावित होते हैं?
+    - जलवायु परिवर्तन से आदिवासी कैसे प्रभावित हो रहे हैं?
+    - जलवायु परिवर्तन और प्रति व्यक्ति आय का क्या सम्बन्ध है ?
+    - जलवायु परिवर्तन से कौन से लोग ज्यादा प्रभावित होते है ?
+    - क्या जलवायु परिवर्तन का असर सभी जगहों पर एक सामान है ?
+    - क्या जलवायु परिवर्तन का आजीविका के ऊपर भी कोई प्रभाव है ?
+    - क्या जलवायु परिवर्तन के कारण गरीबी बढ़ती है ?
+    - क्या वनों की कटाई जलवायु परिवर्तन को प्रभावित करती है?
+    - क्या वातावरण में कार्बन डाइऑक्साइड बढ़ने से जलवायु परिवर्तन प्रभावित होता है?
+    - हमें पेड़ क्यों नहीं काटने चाहिए?
+    - जंगल का कटना जलवायु परिवर्तन को  किस तरह प्रभावित करता है ?
+    - जलवायु परिवर्तन का वनों के साथ क्या सम्बन्ध है ?
+    - वनों की कटाई का वन पर निर्भर रहने वाले समुदायों पर क्या असर पड़ा है ?
+    - जंगल और लोगो का सम्बन्ध कैसा है ?
+    - लगातार तापमान में वृद्धि होने के क्या कारण है ?
+    - लोगों के निजी जीवन पर जलवायु परिवर्तन से क्या असर पड़ रहा है?
+    - जलवायु परिवर्तन से लोग कैसे प्रभावित होते हैं?
+    - क्या नदियों या समुद्रों के किनारे रहने वाले लोग जलवायु परिवर्तन से प्रभावित हैं?
+    - जलवायु परिवर्तन लोगों के जीवन के किन पहलुओं को प्रभावित करता है?
+    - जलवायु परिवर्तन का लोगो के व्यक्तिगत जीवन में क्या असर पड़ रहा है?
+    - लोग जलवायु परिवर्तन से कैसे प्रभावित हो रहे है?
+    - जलवायु परिवर्तन हमारी जीवन को कैसे प्रभावित कर रहा है?
+    - जलवायु परिवर्तन के कारण लोगों का जीवन में कैसे बदल आ रहा  है?
+    - क्या जलवायु परिवर्तन के कारण हमारा जीवन बदल रहा है?
+    - क्या जलवायु परिवर्तन से लोगो के अजीविका में भी असर पड़ रहा है?
+    - जलवायु परिवर्तन लोगों की आजीविका को कैसे प्रभावित करता है?
+    - क्या जलवायु परिवर्तन के कारण हमारे रोजगार के तरीके बदल रहे है?
+    - जलवायु परिवर्तन से हमारे रोजी-रोटी कैसे प्रभावित हो रहा है?
+    - जलवायु परिवर्तन से कौन सी आजीविका प्रभावित हो रही है?
+    - क्या बदलते मौसम के कारण हमारे रोजगार के तरीके बदल रहे है?
+    - क्या मौसम में बदलाव के कारण हमारे रोजगार के तरीके बदल रहे है?
+    - क्या मौसम में बदलाव के कारण हमारी आजीविका प्रभावित है?
+    - मौसम में बदलाव से हमारी आजीविका कैसे प्रभावित है?
+    - क्या बढ़ती गर्मी से हमारी आजीविका कैसे प्रभावित है?
+    - क्या बदलते मौसम का असर हमारी आजीविका पर पड़ता है?
+    - कौन कौन से आजीविका जलवायु परिवर्तन से सबसे ज्यादा प्रभावित हो रहा है?
+    - जलवायु परिवर्तन का आजीविका के ऊपर कैसा असर है ?
+    - वनों के ऊपर निर्भर लोगो की आजीविका जलवायु परिवर्तन से कैसे प्रभावित हो रही है ?
+    - जलवायु परिवर्तन गाँव में रहने वाले लोगो की आजीविका के ऊपर क्या असर डाल रहे है ?
+    - क्या जलवायु परिवर्तन सभी लोगों को समान रूप से प्रभावित करता है?
+    - जलवायु परिवर्तन से कौन सी आजीविका से जुड़े लोग सबसे अधिक प्रभावित होती है?
+    - मौसम में बदलाव से कौन कौन से आजीविका सबसे ज्यादा प्रभावित हो रहा है?
+    - जलवायु परिवर्तन से लोगो के स्वास्थ्य और पोषण में कैसे असर पर रहा है?
+    - क्या जलवायु परिवर्तन लोगों के स्वास्थ्य को प्रभावित करता है?
+    - क्या जलवायु परिवर्तन खाद्य सुरक्षा और उपलब्धता को प्रभावित करता है?
+    - जलवायु परिवर्तन से लोगों के खानपान पर कैसे असर पड़ रहा है?
+    - क्या जलवायु परिवर्तन से लोगों के खानपान पर असर पड़ रहा है?
+    - सही खान-पान और स्वास्थ्य के बीच क्या संबंध है?
+    - पोषण की कमी हमारे स्वास्थ्य को कैसे प्रभावित करती है?
+    - क्या जलवायु परिवर्तन से हमारे आहार की पौष्टिकता पर असर पड़ रहा है?
+    - जलवायु परिवर्तन का असर खेती-बारी पर कैसे पड़ रहा है?
+    - क्या जलवायु परिवर्तन से किसान प्रभावित हैं?
+    - जलवायु परिवर्तन से किसान कैसे प्रभावित हैं?
+    - जलवायु परिवर्तन से किसान क्यों प्रभावित हैं?
+    - क्या जलवायु परिवर्तन फसल की उपज को प्रभावित कर सकता है?
+    - जलवायु परिवर्तन खेती-बारी कैसे प्रभावित करता है?
+    - क्या जलवायु परिवर्तन खेती-बाड़ी को प्रभावित करता है?
+    - क्या जलवायु परिवर्तन से किसानों को नुकसान हो रहा है?
+    - जलवायु परिवर्तन से किसानों को कैसे नुकसान हो रहा है?
+    - क्या जलवायु परिवर्तन का असर खेत की मिट्टी पर भी परता है?
+    - क्या जलवायु परिवर्तन से खेत की मिट्टी कम उपजाऊ हो सकती है?
+    - मौसम में बदलाव से खेतीबारी पर क्या असर पड़ता है?
+    - क्या मौसम में बदलाव से खेतीबारी पर असर पड़ता है?
+    - जलवायु परिवर्तन का असर मछली-पालन पर कैसे पड़ रहा है?
+    - क्या खेत में डाले गए रासायनिक खाद मछलियों को नुकसान कर सकता है?
+    - जलवायु परिवर्तन मछली को कैसे नुकसान पहुंचाता है?
+    - क्या जलवायु परिवर्तन से मछली पालन के लिए पानी मिलना मुश्किल हो गया है?
+    - जलवायु परिवर्तन से मछली पालन करना क्यों मुश्किल हो गया है?
+    - जलवायु परिवर्तन मछली पालन को कैसे प्रभावित कर रहा है?
+    - जलवायु परिवर्तन पलायन  को कैसे प्रभावित करता है
+    - क्या जलवायु परिवर्तन से पलायन बढ़ रहा है?
+    - क्या जलवायु परिवर्तन लोगों को पारंपरिक आजीविका छोड़ने के लिए मजबूर कर रहा है?
+    - जलवायु परिवर्तन से पलायन कैसे बढ़ रहा है?
+    - जलवायु परिवर्तन से पलायन क्यों बढ़ रहा है?
+    - क्या जलवायु परिवर्तन के कारण लोग काम की तलाश में पलायन कर रहे हैं?
+    - जलवायु परिवर्तन पलायन को प्रभावित करता है?
+    - जलवायु परिवर्तन के वजह से खासकर कौनसे आजीविका से जुड़े लोग पालन करने पे मजबूर होते है?
+    - क्या जलवायु परिवर्तन को रोका जा सकता है?
+    - क्या जलवायु परिवर्तन के प्रभावों से निपटा जा सकता है?
+    - जलवायु परिवर्तन के प्रभाव को कम कैसे किया जा सकता है?
+    - क्या जलवायु परिवर्तन के प्रभावों को कम किया जा सकता है?
+    - क्या जलवायु परिवर्तन के प्रभावों को व्यक्तिगत स्तर पर रोका जा सकता है 
+    - जलवायु परिवर्तन के प्रभावों को कम करने के लिए कौन कौन प्रयासरत है? 
+    - क्या जलवायु परिवर्तन के असर को कम करने के लिए कोई प्रयास हो रहा है?
+    - क्या निजी प्रयासों से भी जलवायु परिवर्तन के प्रभावों को रोका जा सकता है 
+    - जलवायु परिवर्तन से उत्पन्न समस्या के समाधान के लिए किनको काम करना चाहिए?
+    - जलवायु परिवर्तन से निपटने के लिए किसकी भूमिका सबसे महत्वपूर्ण है?
+    - जलवायु परिवर्तन के प्रभावों से निपटने के लिए कौन कौन जिम्मेदार है ?
+    - जलवायु परिवर्तन के असर को कम करने में किनका योगदान महत्त्वपूर्ण है 
+    - व्यक्तिगत और सामूहिक प्रयासों से जलवायु परिवर्तन के प्रभाव को कैसे कम किया जा सकता है ?
+    - हम जलवायु परिवर्तन को कैसे रोक सकते हैं?
+    - जलवायु परिवर्तन के प्रभावों को कम करने में संस्थाओ का क्या रोल  है ?
+    - क्या जलवायु परिवर्तन के प्रभावों को कम करने में निजी संस्थाओ की भागीदारी जरुरी है ?
+    - जलवायु परिवर्तन की समस्याओं से निपटने के लिए व्यक्तिगत स्तर पर किस तरह के कदम उठाए जा सकते है?
+    - खेती से जुड़े लोग किस प्रकार खेती में बदलाव कर जलवायु परिवर्तन का सामना कर सकते है ?
+    - किसान भाई किस तरह जलवायु परिवर्तन का सामना कर सकते है ?
+    - हमलोग अपने जीवनशैली में क्या बदलाव करके जलवायु परिवर्तन की गति को कम कर सकते है ?
+    - जलवायु परिवर्तन से निपटने के लिए व्यक्तिगत जीवन में किस तरह के बदलाव करने चाहिए?
+    - क्या खेती के तरीको और जीवनशैली में बदलाव करके जलवायु परिवर्तन की गति को कम कर सकते है ?
+    - जलवायु परिवर्तन से उत्पन्न हुई समस्याओं से निपटने  के लिए सामुदायिक स्तर पर किस तरह के कदम उठाए जा सकते हैं?
+    - सामूहिक प्रयासों द्वारा किस प्रकार जलवायु परिवर्तन के प्रभाव को कम कर सकते है ?
+    - हमलोग अपने आस पास किस तरह सामूहिक रूप से योगदान कर जलवायु परिवर्तन के प्रभाव को कम करने में अपनी भूमिका निभा सकते है ?
+    - क्या सामुदायिक प्रयासों से जलवायु परिवर्तन को कम किया जा सकता है?
+    - ग्रामीण स्तर पर किस तरह के प्रयासों से जलवायु परिवर्तन को कम किया जा सकता है?
+    - सरकार द्वारा जलवायु परिवर्तन को कम करने और प्रभावों से निपटने के लिए क्या प्रयास किये जा रहे है?
+    - क्या सरकार के पास जलवायु परिवर्तन से निपटने के लिए कोई योजना है?
+    - जलवायु परिवर्तन से निपटने के लिए सरकार ने कौन कौन सी योजनाएं चलाई है ?
+    - सरकार किस प्रकार अपने विभागों के माध्यम से जलवायु परिवर्तन से निपटने का प्रयास कर रही है ?
+    - सरकार की तरफ से जलवायु परिवर्तन को रोकने के लिए कौन कौन सी योजनायें चलायी जा रही है?
+    - जलवायु परिवर्तन से निपटने के लिए सरकार क्या कर रही है ?
+    - जलवायु परिवर्तन के कारण कृषि में हो रहे नुकसान से किसानो को बचाने के लिए सरकार ने कौन सी योजना लागू की है?
+    - प्रधानमंत्री फसल बीमा योजना किस प्रकार किसानो को फसल नुकसान से सुरक्षा प्रदान करती है?
+    - प्रधानमंत्री फसल बीमा योजना क्या है ?
+    - किसान फसल बीमा योजना क्या है?
+    - फसल बीमा योजना का लाभ कौन कौन सी फसलों की नुकसान की भरपाई के लिए मिलता है ?
+    - प्रधानमंत्री फसल बीमा योजना का क्या उद्देश्य है ?
+    - किसानो को जलवायु परिवर्तन से होने वाले नुकसान से बचाने के लिए सरकार की क्या योजना है ?
+    - प्रधानमंत्री फसल बीमा योजना अंतर्गत आवेदन करने की प्रक्रिया क्या है ?
+    - किसान फसल बीमा के लिए कहां आवेदन कर सकता है?
+    - प्रधानमंत्री फसल बीमा योजना के लिए आवेदन कैसे करे ?
+    - प्रधानमंत्री फसल बीमा योजना का लाभ लेने के लिए आवेदन कहाँ जमा करना होता है ?
+    - फसल बिमा के लिए आवेदन करने की क्या प्रक्रिया है ?
+    - क्या फसल बिमा के लिए कंप्यूटर द्वारा आवेदन करना जरुरी है ?
+    - सॉइल हेल्थ कार्ड क्या है?
+    - क्या खेत की मिट्टी जांच करने के लिए कोई योजना है?
+    - खेत की मिट्टी की जांच के लिए किससे संपर्क करें?
+    - खेत की मिट्टी का परीक्षण करने से किसान को क्या लाभ होता है?
+    - क्या खेत में मिट्टी के अनुसार खाद देनी चाहिए?
+    - क्या खेत में मिट्टी के अनुसार फसलें लगानी चाहिए?
+    - सॉइल हेल्थ कार्ड से किसान को क्या फायदा मिलता है?
+    - क्या सभी किसानों को सॉइल हेल्थ कार्ड का फायदा मिलता है?
+    - सॉइल हेल्थ कार्ड के लिए कौन आवेदन कर सकता है? 
+    - सॉइल हेल्थ कार्ड योजना का लाभ लेने के लिए कहाँ सम्पर्क किया जाता है? 
+    - जलवायु परिवर्तन से निपटने के लिए मनरेगा योजना का उपयोग कैसे किया जा सकता है?
+    - क्या पशुपालन और मछली पालन में लगे लोग भी मनरेगा का लाभ उठा सकते हैं?
+    - क्या मनरेगा योजना का उपयोग जलवायु परिवर्तन के प्रभावों से निपटने के लिए किया जा सकता है?
+    - जलवायु परिवर्तन के प्रभावों से निपटने के लिए मनरेगा योजना का उपयोग कैसे किया जा सकता है?
+    - मनरेगा योजना अंतर्गत भूमि संरक्षण हेतु किस प्रकार के कार्य किये जा सकते है ?
+    - क्या मैं मनरेगा योजना के तहत पानी संरक्षण का काम किया जा सकता है?
+    - क्या मैं मनरेगा योजना के तहत सिंचाई के लिए नहर बनाया जा है ?
+    - क्या मैं मनरेगा योजना के तहत मछली पालन लिए बुनियादी ढांचा बनाने का काम किया जा सकता है?
+    - मनरेगा योजना के तहत भूमि, जल, खेती के लिए पानी और पेयजल सम्न्धित कौन से काम किया जा सकता है?
+    - जलवायु परिवर्तन के प्रभाव को कम करने में पंचायत कैसे अपनी भूमिका निभा सकते है ?
+    - सामुदायिक स्तर जलवायु परिवर्तन संबधी सरकारी योजनाओं का लाभ लेने की क्या प्रक्रिया है ?
+    - पंचायत द्वारा  जलवायु परिवर्तन संबधी कार्यो को कराने के लिए आवेदन कैसे दे सकते है ?
+    - जलवायु परिवर्तन के प्रभावों को कम करने में पंचायत का क्या रोल है?
+    - मनरेगा के तहत किस तरह के काम के लिए आवेदन किया जा सकता है?

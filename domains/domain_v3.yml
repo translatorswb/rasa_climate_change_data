@@ -1,0 +1,61 @@
+version: "3.0"
+
+intents:
+
+  - Climate_Change_Adaptation_Local_governance
+  - Climate_Change_Adaptation_Soil_health
+  - Climate_Change_Adaptation_crop_insurance
+  - Climate_Change_Adaptation_crop_insurance_avail
+  - Climate_Change_Impact_Farming
+  - Climate_Change_Impact_Fisheries
+  - Climate_Change_Impact_Health
+  - Climate_Change_Impact_Information
+  - Climate_Change_Impact_Livelihoods
+  - Climate_Change_Impact_LivelihoodsTypes
+  - Climate_Change_Impact_Migration
+  - Climate_Change_Information_global_impact
+  - Climate_Change_Introduction_Causes
+  - Climate_Change_Introduction_Definition
+  - Climate_Change_Introduction_Deforestation
+  - Climate_Change_Introduction_Effect
+  - Climate_Change_Introduction_Impact_on_fauna
+  - Climate_Change_Introduction_Impact_on_human
+  - Climate_Change_Introduction_Signs
+  - Climate_Change_adaptation_Community_Action
+  - Climate_Change_adaptation_Govt_Schemes
+  - Climate_Change_adaptation_Individual_Action
+  - Climate_Change_adaptation_Introduction
+  - Climate_Change_adaptation_MGNREGA
+  - Climate_Change_adaptation_responsibilities
+
+actions:
+
+  - utter_answer_Climate_Change_Adaptation_Local_governance
+  - utter_answer_Climate_Change_Adaptation_Soil_health
+  - utter_answer_Climate_Change_Adaptation_crop_insurance
+  - utter_answer_Climate_Change_Adaptation_crop_insurance_avail
+  - utter_answer_Climate_Change_Impact_Farming
+  - utter_answer_Climate_Change_Impact_Fisheries
+  - utter_answer_Climate_Change_Impact_Health
+  - utter_answer_Climate_Change_Impact_Information
+  - utter_answer_Climate_Change_Impact_Livelihoods
+  - utter_answer_Climate_Change_Impact_LivelihoodsTypes
+  - utter_answer_Climate_Change_Impact_Migration
+  - utter_answer_Climate_Change_Information_global_impact
+  - utter_answer_Climate_Change_Introduction_Causes
+  - utter_answer_Climate_Change_Introduction_Definition
+  - utter_answer_Climate_Change_Introduction_Deforestation
+  - utter_answer_Climate_Change_Introduction_Effect
+  - utter_answer_Climate_Change_Introduction_Impact_on_fauna
+  - utter_answer_Climate_Change_Introduction_Impact_on_human
+  - utter_answer_Climate_Change_Introduction_Signs
+  - utter_answer_Climate_Change_adaptation_Community_Action
+  - utter_answer_Climate_Change_adaptation_Govt_Schemes
+  - utter_answer_Climate_Change_adaptation_Individual_Action
+  - utter_answer_Climate_Change_adaptation_Introduction
+  - utter_answer_Climate_Change_adaptation_MGNREGA
+  - utter_answer_Climate_Change_adaptation_responsibilities
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

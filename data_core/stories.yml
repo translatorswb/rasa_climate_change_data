@@ -1,0 +1,104 @@
+version: "3.0"
+
+stories: 
+
+- story: Climate_Change_Adaptation_Local_governance
+  steps:
+  - intent: Climate_Change_Adaptation_Local_governance
+  - action: utter_answer_Climate_Change_Adaptation_Local_governance
+- story: Climate_Change_Adaptation_Soil_health
+  steps:
+  - intent: Climate_Change_Adaptation_Soil_health
+  - action: utter_answer_Climate_Change_Adaptation_Soil_health
+- story: Climate_Change_Adaptation_crop_insurance
+  steps:
+  - intent: Climate_Change_Adaptation_crop_insurance
+  - action: utter_answer_Climate_Change_Adaptation_crop_insurance
+- story: Climate_Change_Adaptation_crop_insurance_avail
+  steps:
+  - intent: Climate_Change_Adaptation_crop_insurance_avail
+  - action: utter_answer_Climate_Change_Adaptation_crop_insurance_avail
+- story: Climate_Change_Impact_Farming
+  steps:
+  - intent: Climate_Change_Impact_Farming
+  - action: utter_answer_Climate_Change_Impact_Farming
+- story: Climate_Change_Impact_Fisheries
+  steps:
+  - intent: Climate_Change_Impact_Fisheries
+  - action: utter_answer_Climate_Change_Impact_Fisheries
+- story: Climate_Change_Impact_Health
+  steps:
+  - intent: Climate_Change_Impact_Health
+  - action: utter_answer_Climate_Change_Impact_Health
+- story: Climate_Change_Impact_Information
+  steps:
+  - intent: Climate_Change_Impact_Information
+  - action: utter_answer_Climate_Change_Impact_Information
+- story: Climate_Change_Impact_Livelihoods
+  steps:
+  - intent: Climate_Change_Impact_Livelihoods
+  - action: utter_answer_Climate_Change_Impact_Livelihoods
+- story: Climate_Change_Impact_LivelihoodsTypes
+  steps:
+  - intent: Climate_Change_Impact_LivelihoodsTypes
+  - action: utter_answer_Climate_Change_Impact_LivelihoodsTypes
+- story: Climate_Change_Impact_Migration
+  steps:
+  - intent: Climate_Change_Impact_Migration
+  - action: utter_answer_Climate_Change_Impact_Migration
+- story: Climate_Change_Information_global_impact
+  steps:
+  - intent: Climate_Change_Information_global_impact
+  - action: utter_answer_Climate_Change_Information_global_impact
+- story: Climate_Change_Introduction_Causes
+  steps:
+  - intent: Climate_Change_Introduction_Causes
+  - action: utter_answer_Climate_Change_Introduction_Causes
+- story: Climate_Change_Introduction_Definition
+  steps:
+  - intent: Climate_Change_Introduction_Definition
+  - action: utter_answer_Climate_Change_Introduction_Definition
+- story: Climate_Change_Introduction_Deforestation
+  steps:
+  - intent: Climate_Change_Introduction_Deforestation
+  - action: utter_answer_Climate_Change_Introduction_Deforestation
+- story: Climate_Change_Introduction_Effect
+  steps:
+  - intent: Climate_Change_Introduction_Effect
+  - action: utter_answer_Climate_Change_Introduction_Effect
+- story: Climate_Change_Introduction_Impact_on_fauna
+  steps:
+  - intent: Climate_Change_Introduction_Impact_on_fauna
+  - action: utter_answer_Climate_Change_Introduction_Impact_on_fauna
+- story: Climate_Change_Introduction_Impact_on_human
+  steps:
+  - intent: Climate_Change_Introduction_Impact_on_human
+  - action: utter_answer_Climate_Change_Introduction_Impact_on_human
+- story: Climate_Change_Introduction_Signs
+  steps:
+  - intent: Climate_Change_Introduction_Signs
+  - action: utter_answer_Climate_Change_Introduction_Signs
+- story: Climate_Change_adaptation_Community_Action
+  steps:
+  - intent: Climate_Change_adaptation_Community_Action
+  - action: utter_answer_Climate_Change_adaptation_Community_Action
+- story: Climate_Change_adaptation_Govt_Schemes
+  steps:
+  - intent: Climate_Change_adaptation_Govt_Schemes
+  - action: utter_answer_Climate_Change_adaptation_Govt_Schemes
+- story: Climate_Change_adaptation_Individual_Action
+  steps:
+  - intent: Climate_Change_adaptation_Individual_Action
+  - action: utter_answer_Climate_Change_adaptation_Individual_Action
+- story: Climate_Change_adaptation_Introduction
+  steps:
+  - intent: Climate_Change_adaptation_Introduction
+  - action: utter_answer_Climate_Change_adaptation_Introduction
+- story: Climate_Change_adaptation_MGNREGA
+  steps:
+  - intent: Climate_Change_adaptation_MGNREGA
+  - action: utter_answer_Climate_Change_adaptation_MGNREGA
+- story: Climate_Change_adaptation_responsibilities
+  steps:
+  - intent: Climate_Change_adaptation_responsibilities
+  - action: utter_answer_Climate_Change_adaptation_responsibilities
