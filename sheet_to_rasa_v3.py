@@ -7,7 +7,7 @@ import os
 
 data = {
     'lang': ['eng', 'hindi'],
-    'bot_strings_sheet': 'https://docs.google.com/spreadsheets/d/1xyJ0T0jcxLw-Rhow1_RBtAaYkjjHt96PbllgpKtc5wI/edit?pli=1#gid=1991829780'
+    'bot_strings_sheet': 'https://docs.google.com/spreadsheets/d/1OpTyjwXZjItPugQpprQ86oaV5xU1fUS0A_QELrQMg5U/edit#gid=1133259128'
     
 }
 
