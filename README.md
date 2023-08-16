@@ -4,7 +4,7 @@ RASA multilingual FAQ bot creator creates all the necessary files to train a RAS
 
 To access the source spreadsheet which this repository uses, [click here](https://docs.google.com/spreadsheets/d/1OpTyjwXZjItPugQpprQ86oaV5xU1fUS0A_QELrQMg5U/edit#gid=1991829780). 
 
-In this particular tutorial, we are working with two languages, English and Hindi in three main topics and 25 FAQs in total. 
+In this particular tutorial, we are working with two languages, English and Hindi in three main topics related to climate resilience with 25 FAQs in total. 
 
 
 # Installation
